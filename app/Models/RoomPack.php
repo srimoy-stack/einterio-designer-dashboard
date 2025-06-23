@@ -20,4 +20,17 @@ class RoomPack extends Model
     {
         return $this->belongsTo(User::class, 'designer_id');
     }
+    public function revisions()
+    {
+        return $this->hasMany(Revision::class);
+    }
+    
+    public static function createForDesigner(array $data): self
+    {
+        return self::create([
+            'designer_id' => auth()->id(),
+            'title' => $data['title'],
+        ]);
+    }
+
 }

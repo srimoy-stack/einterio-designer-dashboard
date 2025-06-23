@@ -38,6 +38,10 @@ public function payments()
 {
     return $this->hasMany(Payment::class, 'designer_id');
 }
+public function roomPacks()
+{
+    return $this->hasMany(RoomPack::class, 'designer_id');
+}
 
 
     protected $hidden = [
