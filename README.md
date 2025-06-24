@@ -99,13 +99,7 @@ Password: password
 
 ---
 
-### 📌 Notes
 
-- The weather data on the dashboard is dynamic based on the user's city.
-- You can change the city by editing the user's profile (if needed).
-- All uploads (images, PDFs, CSV) are stored in `storage/app/public`, and served via `public/storage`.
-
----
 
 That's it! Let me know if you have any issues running it.
 
