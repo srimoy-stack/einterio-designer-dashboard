@@ -17,11 +17,10 @@ This guide will help you run the Laravel project for the Einterio Designer Dashb
 ### 📦 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/einterio-dashboard.git
+git@github.com:srimoy-stack/einterio-designer-dashboard.git
 cd einterio-dashboard
 ```
 
-> Or download and extract the ZIP folder if shared manually.
 
 ---
 
